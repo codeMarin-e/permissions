@@ -1,0 +1,29 @@
+{
+    "name": "marinar/permissions",
+    "description": "Permissions module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marin",
+            "email": "marin@dev.nddesign.no"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Marinar\\Permissions\\": "src/"
+        }
+    },
+
+    "require": {
+        "marinar/marinar": "*",
+        "spatie/laravel-permission": "*"
+    },
+    "extra": {
+        "marinar": {
+            "module": true,
+            "plugin": false,
+            "addon_to": false
+        }
+    }
+}
